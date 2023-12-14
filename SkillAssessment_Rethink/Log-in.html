@@ -1,0 +1,40 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+        <title>HOME</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <body>
+        </nav><nav class="navbar">
+        
+            <ul>
+              <li style="float:left"><label class="logo"><a>Mini Blog</a></label></li>
+              <li style="float:right"><a href="Skill Assessment.html">Login</a></li>
+              <li style="float:right"><a href="Log-in.html">Home</a></li>
+              <li style="float:right"><a href="Log-in.html">Hi Czyril</a></li>
+            </ul>
+        </nav>
+        <div class="box">
+            <p>Post title<p>
+            <h5> <span id="result-title"></h5><br><hr><br>
+            <p>Post Content<p>
+            <h5> <span id="result-content"></h5><br><hr><br>
+                <script>
+                    const title=localStorage.getItem('title1');
+                    const content=localStorage.getItem('content1');
+                    document.getElementById("result-title").textContent = title;
+                    document.getElementById("result-content").textContent = content;
+                </script><br>
+            <button class= "btn3"> <a href="Create.html">DELETE</a></button>
+            <button class= "btn4"> <a href="Edit.html">EDIT</a></button>
+        </div>
+        <br>
+        <div class="box">
+            <button class= "btn1"> <a href="Create.html">CREATE NEW POST</a></button>
+        </div>
+    
+
+    <body>

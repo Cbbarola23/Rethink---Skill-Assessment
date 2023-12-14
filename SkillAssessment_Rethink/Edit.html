@@ -1,0 +1,53 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+        <title>Create a Post</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <body>
+    </nav><nav class="navbar">
+        
+        <ul>
+          <li style="float:left"><label class="logo"><a>Mini Blog</a></label></li>
+          <li style="float:right"><a href="Skill Assessment.html">Login</a></li>
+          <li style="float:right"><a href="Log-in.html">Home</a></li>
+          <li style="float:right"><a href="Log-in.html">Hi Czyril</a></li>
+        </ul>
+    </nav>
+    </body>
+    <div class="registration">
+        <form id="form">
+        <h3>Edit Post - Post Title!</h3>
+                <input type="text" id="title" name="title" placeholder="Enter New Title" required><br>
+                <h5>Post title - Edited</h5><hr>
+                <input type="text" id="content" name="content" placeholder="Enter New Content " required><br>
+                <h5>Contents of the Post- Edited</h5>
+                <br>
+                <button class="btn" type="submit">SAVE</button>
+         </form>  
+        </div>
+
+         <script>
+            const form=document.getElementById('form');
+            const title=document.getElementById('title');
+            const content=document.getElementById('content');
+
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+
+            const titlevalue = title.value;
+            const contentvalue = content.value;
+            localStorage.setItem("title1",titlevalue);
+            localStorage.setItem("content1",contentvalue);
+            window.location.href = "Log-in.html";
+        })
+         </script>
+
+
+
+
+
+</html>

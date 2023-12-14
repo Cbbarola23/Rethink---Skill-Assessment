@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    ;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(28, 101, 185);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: center;
+}
+
+
+.box{
+    
+    background-color: white;
+    width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}
+
+.registration{
+    background-color: white;
+    width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+  }
+
+.btn{
+    background-color: rgb(6, 150, 102);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h4{
+    color:grey;
+    text-align: center;
+    font-size: 20px;
+} 
+
+h3{
+    color: rgb(145, 139, 139);
+    font-size: 30px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+ a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: Grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.create{
+    background-color: white;
+    width: 800px;
+    border: none;
+    padding: 20px;
+    margin: auto;
+}
+
+.btn1 {
+    background-color: rgb(8, 146, 220);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn3 {
+    background-color: rgb(239, 13, 13);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn4 {
+    background-color: rgb(4, 147, 54);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}

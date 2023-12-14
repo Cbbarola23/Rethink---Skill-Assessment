@@ -1,0 +1,68 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+        <title>Create a Post</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <script>
+       /*function passvalue()
+        {
+            var title1=document.getElementById("title").value;
+            var content1=document.getElementById("content").value;
+            localStorage.setItem("textvalue",title);
+            localStorage.setItem("textvalue1",content1);
+            return false;
+        }
+
+        const title=document.getElementById('title')
+        const content=document.getElementById('content')
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+
+            const titlevalue=title.value;
+            const contentvalue=content.value;
+            localStorage.setItem("title",titlevalue);
+            localStorage.setItem("content",contentvalue);
+            window.location.href="Log-in.html";
+        })*/
+        </script>
+    <body>
+        <nav class="navbar">
+        
+            <ul>
+              <li style="float:left"><label class="logo"><a>Mini Blog</a></label></li>
+              <li style="float:right"><a href="#">HOME</a></li>
+            </ul>
+        </nav>
+
+        <div class="create">
+        <form id="form">
+        <h3>Create a Post!</h3>
+                <input type="text" id="title" name="title" placeholder="Enter Title" required><br>
+                <input type="text" id="content" name="content" placeholder="Enter Content " required><br>
+                <br>
+                <button class="btn" type="submit">POST</button>
+         </form>  
+        </div>
+
+         <script>
+            const form=document.getElementById('form');
+            const title=document.getElementById('title');
+            const content=document.getElementById('content');
+
+        form.addEventListener('submit', function(e){
+            e.preventDefault();
+
+            const titlevalue = title.value;
+            const contentvalue = content.value;
+            localStorage.setItem("title1",titlevalue);
+            localStorage.setItem("content1",contentvalue);
+            window.location.href = "Log-in.html";
+        })
+         </script>
+
+    </body>
+
